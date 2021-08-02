@@ -1,0 +1,70 @@
+div{
+  margin: 0 auto;
+  height: 100px;
+  position: relative;
+  transition: 2s linear; 
+}
+.sqr1{
+  width: 200px;
+  background-color: #e32636;
+  z-index: 6;
+}
+
+.sqr1:hover{
+background-color: rgb(163, 32, 32);
+}
+
+.sqr2{
+  width: 400px;
+  background-color:#cd2682;
+  
+  top: -50px;
+  z-index: 5;
+}
+.sqr2:hover{
+  background-color: pink;
+}
+
+.sqr3{
+  width: 600px;
+  background-color:#003153;
+
+  top: -100px;
+  z-index: 4;
+}
+
+.sqr3:hover{
+  background-color: blue;
+}
+.sqr4{
+  width: 800px;
+  background-color: #01796f;
+
+  top: -150px;
+  z-index: 3;
+}
+.sqr4:hover{
+  background-color: green;
+}
+
+.sqr5{
+  width: 1000px;
+  background-color: #ff4d00;
+
+  top: -200px;
+  z-index: 2;
+}
+.sqr5:hover{
+  background-color: yellow;
+}
+
+.sqr6{
+  width: 1200px;
+  background-color: #414a4c;
+
+  top: -250px;
+  z-index: 1;
+}
+.sqr6:hover{
+  background-color: brown;
+}
