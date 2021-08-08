@@ -44,15 +44,17 @@ line-height: 42.19px;
   width: 300px;
   padding-left: 831px;
   display: flex;
-  
+  justify-content: space-between;
 }
 
 
 .container__btn-con1-1{
   width: 136px;
   height: 38px;
+  
+  border: none;
   border-radius: 4px;
-  justify-content: space-between;
+  
   font-family: "Helvetica Neue";
 color: #fff;
 font-size: 16px;
@@ -63,6 +65,8 @@ background:#8DD83D;
 .container__btn-con2-2{
   width: 148px;
   height: 38px;
+  margin-left: 13px;
+  border: none;
   border-radius: 4px;
   justify-content: space-between;
   font-family: "Helvetica Neue";
