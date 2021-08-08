@@ -1,0 +1,75 @@
+@import url("./fonts.css");
+
+/* STAR-WARS */
+*{
+  box-sizing: border-box;
+}
+
+.main__container{
+  margin: o auto;
+  max-width: 1441px;
+
+}
+
+.container{
+background-image: url("../images/Star-Wars-Battlefront-II-combat.png");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+max-width: 1441px;
+height: 788px;
+
+}
+
+.container__text{
+font-family: "Helvetica Neue";
+color: #fff;
+position: relative;
+padding-left: 831px;
+padding-top: 249px;
+}
+
+.container__text-content1{
+font-size: 36px;
+line-height: 42.19px;
+}
+
+.container__text-content2{
+  font-size: 24px;
+  line-height: 28.13px;
+  padding-bottom: 134px;
+}
+
+.container__btn{
+  width: 300px;
+  padding-left: 831px;
+  display: flex;
+  
+}
+
+
+.container__btn-con1-1{
+  width: 136px;
+  height: 38px;
+  border-radius: 4px;
+  justify-content: space-between;
+  font-family: "Helvetica Neue";
+color: #fff;
+font-size: 16px;
+background:#8DD83D;
+;
+}
+
+.container__btn-con2-2{
+  width: 148px;
+  height: 38px;
+  border-radius: 4px;
+  justify-content: space-between;
+  font-family: "Helvetica Neue";
+color: #fff;
+font-size: 16px;
+
+background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+
+}
+

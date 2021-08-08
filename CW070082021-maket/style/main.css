@@ -1,0 +1,68 @@
+@import url("./fonts.css");
+
+/* font-family: 'Open Sans', sans-serif; */
+
+*{
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+
+.header{
+  margin: 0 auto;
+}
+
+.container{
+  max-width: 1440px;
+  padding: 0px 5px;
+  margin: 0 auto;
+}
+.header__inner{
+background-image: url("../images/bg.png");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+padding-top: 41px;
+padding-bottom: 71px;
+max-width: 1440px;
+text-align: center;
+}
+.header__inner-logo{
+padding-bottom: 318px;
+}
+
+.header__inner-logo img{
+  
+  width: 100px;
+  height: 23px;
+}
+
+.header-text_title{
+  font-family: "Bebas Neue";
+  font-size: 60px;
+  letter-spacing: 5.70937px;
+  line-height: 70.31px;
+  color: #fff;
+}
+
+.header-text_content{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  color: #fff;
+  padding-bottom: 220px;
+
+}
+
+.header_inner-btn a{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 3.7px;
+  color: #fff;
+}
