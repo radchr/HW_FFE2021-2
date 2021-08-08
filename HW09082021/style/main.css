@@ -62,6 +62,10 @@ background:#8DD83D;
 ;
 }
 
+.container__btn-con1-1:hover{
+  border: 1px solid blue;
+}
+
 .container__btn-con2-2{
   width: 148px;
   height: 38px;
@@ -76,4 +80,8 @@ font-size: 16px;
 background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
 
 }
+.container__btn-con2-2:hover{
+  border: 1px solid blue;
+}
 
+}
