@@ -162,3 +162,12 @@ input:focus, textarea:focus, select:focus{
   width: 96px;
   height: 29px;
 }
+
+input::placeholder{
+  padding-top: 9px;
+  padding-left: 16px;
+}
+
+.nav__img{
+  margin-left: 8px;
+}
