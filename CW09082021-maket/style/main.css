@@ -5,6 +5,93 @@
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container{
+  max-width: 1440px;
+  padding: 0px 5px;
+  margin: 0 auto;
+}
+
+.header{
+  margin: 0 auto;
+}
+
+.header__inner{
+  background-image: url("../images/Star-Wars-Battlefront-II-combat.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 206px;
+  padding-bottom: 200px;
+}
+
+.header__about{
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 560px;
+  
+  margin-bottom: 134px;
+}
+.header__about div {
+  color: #fff;
+  font-family: "Helvetica Neue" ;
+  }
+
+.header__about-inner{
+  display: flex;
+  flex-direction: column;
+}
+
+.header__about-title{
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.header__about-part{
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.header_btns{
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 840px;
+  
+}
+
+.header_btn{
+  border-radius: 4px;
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  line-height: 21px;
+  color: #fff;
+  border: none;
+}
+
+.watch {
+  padding: 8px 24px 9px 19px;
+  background: #8DD83D;
+  border-radius: 4px;
+}
+
+.explore{
+  padding: 8px 19px 9px;
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+  border-radius: 4px;
+  margin-left: 13px;
+}
+
+
+
+
+/* 
 .main__container{
   margin: o auto;
   max-width: 1441px;
@@ -83,4 +170,4 @@ background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
 .container__btn-con2-2:hover{
   border: 1px solid blue;
 }
-
+ */
