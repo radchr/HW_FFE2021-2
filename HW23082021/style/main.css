@@ -127,9 +127,6 @@ select:focus {
   justify-content: space-between;
 }
 
-.logo {
-}
-
 .menu__inner-items a {
   font-family: "Helvetica Neue";
   font-size: 16px;
@@ -658,175 +655,129 @@ input::placeholder {
   margin-right: 15px;
 }
 /* ===================================Footer */
-.fut {
+.footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 5px;
+}
+
+.footer__container {
   max-width: 1440px;
   padding: 0px 5px;
   margin: 0 auto;
-}
-
-.footer {
-  background: #373a3c;
-  max-width: 1440px;
-  padding: 0px 5px;
-  margin: 0 5px;
   height: 395px;
   padding-top: 58px;
+  background: #373a3c;
 }
 
-.container__footer {
-  margin: 0 auto;
-  height: 250px;
-  width: 1100px;
-
+.footer_menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+.footer_m__1 {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+/* .footer_menu_1 {
+  margin-left: 165px;
 }
 
-.cont_f_1-1 {
+.footer_menu_2 {
+  margin-left: 275px;
+}
+
+.footer_menu_3 {
+  margin-left: 253px;
+} */
+
+.m1 a {
   font-family: "Helvetica Neue";
   font-size: 18px;
   line-height: 21px;
   color: #7dd42f;
 }
 
-.cont_f_1-2 a {
+.m2 a,
+.m3 a,
+.m4 a,
+.m5 a {
   font-family: "Helvetica Neue";
   font-size: 14px;
   line-height: 16px;
-  /* identical to box height */
   color: #ffffff;
-  margin-top: 34px;
 }
 
-.cont_f_1-3 a {
-  font-family: "Helvetica Neue";
-  font-size: 14px;
-  line-height: 16px;
-  /* identical to box height */
-  color: #ffffff;
-  margin-top: 29px;
+.m2,
+.m3,
+.m4 {
+  padding-bottom: 29px;
+}
+.m5 {
+  padding-bottom: 49px;
 }
 
-.cont_f_1-4 a {
-  font-family: "Helvetica Neue";
-  font-size: 14px;
-  line-height: 16px;
-  /* identical to box height */
-  color: #ffffff;
-  margin-top: 28px;
+.m2_2,
+.m2_3,
+.m2_4 {
+  padding-bottom: 29px;
 }
 
-.cont_f_1-5 a {
-  font-family: "Helvetica Neue";
-  font-size: 14px;
-  line-height: 16px;
-  /* identical to box height */
-  color: #ffffff;
-  margin-top: 29px;
+.footer_m__2 {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
-/* ___________________________________
- */
 
-.cont_f_2_1 {
+.m2_1 a {
   font-family: "Helvetica Neue";
   font-size: 18px;
   line-height: 21px;
   color: #7dd42f;
 }
 
-.cont_f_2_2 a {
+.m2_2 a,
+.m2_3 a,
+.m2_4 a,
+.m2_5 a {
   font-family: "Helvetica Neue";
   font-size: 14px;
   line-height: 16px;
-  /* identical to box height */
   color: #ffffff;
-  margin-top: 34px;
 }
-
-.cont_f_2_3 a {
-  font-family: "Helvetica Neue";
-  font-size: 14px;
-  line-height: 16px;
-  /* identical to box height */
-  color: #ffffff;
-  margin-top: 29px;
-}
-
-.cont_f_2_4 a {
-  font-family: "Helvetica Neue";
-  font-size: 14px;
-  line-height: 16px;
-  /* identical to box height */
-  color: #ffffff;
-  margin-top: 28px;
-}
-
-.cont_f_2_5 a {
-  font-family: "Helvetica Neue";
-  font-size: 14px;
-  line-height: 16px;
-  /* identical to box height */
-  color: #ffffff;
-  margin-top: 29px;
-}
-
-/* _________________________________________________ */
-
 .cont_f_3_1 {
   font-family: "Helvetica Neue";
   font-size: 18px;
   line-height: 21px;
   color: #7dd42f;
 }
-
 .cont_f_3_2 {
-  margin-top: 29px;
   display: flex;
 }
 .cont_f_3_2_1 {
-  margin-right: 20px;
+  padding-right: 20px;
 }
-
 .cont_f_3_2_2 {
-  margin-right: 20px;
+  padding-right: 21px;
 }
-/* _________________________________________________ */
-
-#line {
-  width: 1200px;
-
-  mix-blend-mode: normal;
-  opacity: 0.35;
-  border: 1px solid #ffffff;
-  align-self: center;
+.m1,
+.m2_1,
+.cont_f_3_1 {
+  padding-bottom: 29px;
 }
-
 .footer_bottom {
-  width: 1200px;
-  height: 60px;
-
+  max-width: 1200px;
   margin: 0 auto;
+
+  height: 40px;
+  border-top: 1px solid #fff;
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  line-height: 19px;
   display: flex;
+  color: #fff;
   justify-content: space-between;
-  margin-top: 19px;
-}
-
-.fut_but_1 {
-  font-family: "Helvetica Neue";
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  color: #ffffff;
-}
-
-.fut_but_2 {
-  font-family: "Helvetica Neue";
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  color: #ffffff;
+  padding-top: 19px;
 }
 
 /* ================================= */
@@ -847,6 +798,13 @@ input::placeholder {
   margin: 0 auto;
 }
 
-.footer {
-  margin: 0 auto;
+/* ADAPTIVE */
+
+@media (max-width: 960px) {
+  .header__about {
+    justify-content: center;
+  }
+  .header_btns {
+    justify-content: center;
+  }
 }
