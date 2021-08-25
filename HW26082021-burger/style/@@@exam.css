@@ -1,0 +1,115 @@
+/* Code for nav bar */
+/* ____________________________________________________________ */
+.container__menu {
+  max-width: 1440px;
+  min-height: 60px;
+  padding: 0px 5px;
+  margin: 0 auto;
+  background: #373a3c;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom: 3px solid #777777;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* ================================================= */
+.burg,
+#navbar1 {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .burg {
+    display: block;
+    text-decoration: none;
+    text-align: right;
+  }
+  #navbar {
+    display: none;
+  }
+  #navbar1 {
+    display: none;
+  }
+  #navbar1:target {
+    display: block;
+  }
+  .logo__inner {
+    padding-top: 15px;
+    margin: 0 auto;
+  }
+  .container__menu {
+    display: block;
+  }
+  .container__menu * {
+    font-size: 25px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    list-style: none;
+    text-decoration: none;
+    padding-bottom: 10px;
+  }
+  #navbar1 a {
+    display: block;
+    text-align: right;
+    padding-bottom: 30px;
+  }
+}
+/* ============================================= */
+.menu {
+  max-width: 1440px;
+  padding: 0px 5px;
+  margin: 0 auto;
+}
+
+.menu__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.it1,
+.it2,
+.it3 {
+  padding-top: 10px;
+}
+.menu__inner-items a {
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+
+  margin-right: 25px;
+  padding-top: 10px;
+}
+.menu__inner-items a:hover {
+  color: #fff;
+}
+
+.menu__inner-items input {
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  line-height: 21px;
+  color: #435766;
+
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-right: 25px;
+
+  max-width: 209.8px;
+  height: 38px;
+}
+.logo__inner {
+  max-width: 96px;
+  height: 29px;
+}
+
+input::placeholder {
+  padding-top: 9px;
+  padding-left: 16px;
+}
+
+.nav__img {
+  margin-left: 8px;
+}
