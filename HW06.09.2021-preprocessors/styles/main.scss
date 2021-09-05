@@ -14,6 +14,7 @@ $contsize: 1100px;
 }
 .container {
   margin: $centr;
+  background: #e5e5e5;
 }
 
 .site-content__top {
@@ -24,14 +25,13 @@ $contsize: 1100px;
   &-text {
     max-width: $contsize;
     height: 36px;
-    border: 1px solid red;
+
     margin: $centr;
     display: flex;
     justify-content: end;
     align-items: center;
 
     &__feedback {
-      border: 1px solid red;
       padding-right: 37px;
       a {
         text-decoration: none;
@@ -42,7 +42,6 @@ $contsize: 1100px;
       }
     }
     &__input {
-      border: 1px solid red;
       a {
         font-size: 14px;
         line-height: 16px;
@@ -66,7 +65,7 @@ $contsize: 1100px;
     justify-content: space-between;
     align-items: center;
     margin: $centr;
-    border: 1px solid red;
+
     &-burger {
       color: #333333;
       font-size: 20px;
@@ -106,7 +105,8 @@ $contsize: 1100px;
     // background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
-    border: 1px solid red;
+
+    font-family: "Google Sans";
   }
   &-bar2 {
     width: 356px;
@@ -117,7 +117,8 @@ $contsize: 1100px;
     // background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
-    border: 1px solid red;
+
+    font-family: "Google Sans";
   }
   &-bar3 {
     width: 356px;
@@ -128,6 +129,93 @@ $contsize: 1100px;
     // background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
-    border: 1px solid red;
+
+    font-family: "Google Sans";
   }
+}
+
+.site-content__price {
+  width: 1100px;
+  margin: $centr;
+  height: 85px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &-text1 {
+    font-family: "Google Sans";
+  }
+  &-text2 {
+    font-family: "Google Sans";
+  }
+  &-text3 {
+    font-family: "Google Sans";
+  }
+}
+.site-content__main {
+  width: 1100px;
+  margin: $centr;
+  margin-bottom: 44px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &-item {
+    width: 253px;
+    height: 400px;
+    background: #ffffff;
+    border: 1px solid #e8e8ee;
+    margin-bottom: 31px;
+    border-radius: 3px;
+  }
+}
+.site-content__footer {
+  margin: $centr;
+  display: flex;
+  justify-content: center;
+  & button {
+    text-align: center;
+    font-family: "Google Sans";
+    background-color: transparent;
+    width: 182px;
+    height: 44px;
+    border-radius: 3px;
+    border: 2px solid rgba(116, 90, 205, 1);
+    color: rgba(116, 90, 205, 1);
+  }
+}
+.btc {
+  font-family: Google Sans;
+  font-size: 24px;
+  line-height: 28px;
+  color: #333333;
+  padding-left: 16px;
+  padding-top: 21px;
+}
+.chair {
+  font-family: Google Sans;
+  font-size: 14px;
+  line-height: 16px;
+  padding-left: 16px;
+  color: #333333;
+  padding-top: 9px;
+  padding-bottom: 28px;
+}
+.moscow {
+  font-family: Google Sans;
+  font-size: 12px;
+  line-height: 14px;
+  padding-left: 16px;
+  padding-top: 11px;
+  color: #828282;
+  border-top: 1px solid #e8e8ee;
+}
+
+input {
+  width: 651px;
+  height: 44px;
+}
+.site-content__nav__container-menu {
+  vertical-align: middle;
+  text-align: center;
 }
